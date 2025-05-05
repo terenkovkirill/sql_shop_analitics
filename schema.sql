@@ -38,5 +38,5 @@ CREATE TABLE order_items
 	price_at_order NUMERIC(10, 2)
 );
 
-CREATE INDEX ind_users_email ON users(email);		--TODO: применить это
+CREATE INDEX ind_users_email ON users(email);		--TODO: применить это э
 CREATE INDEX ind_user_id 	 ON orders(user_id); 
